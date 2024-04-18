@@ -18,7 +18,7 @@ export default function Home() {
             className="object-cover object-top rounded-full h-40 w-40 border-2 border-white mx-auto"
           ></Image>
           <p className="text-2xl font-medium mt-1">$TOLYJEET</p>
-          <p>Bt9tUAuuoJTihrLvgK1kWErBJduaGEeQbF2VhAPHtYm4</p>
+          <TokenAddress/>
           <div className="mx-auto"></div>
         </div>
         <Intro />
