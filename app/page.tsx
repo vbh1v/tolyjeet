@@ -1,13 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import Intro from "@/components/Intro";
 import { Navbar } from "@/components/Navbar";
+import TokenAddress from "@/components/TokenAddress";
 import TooltipViewer from "@/components/TooltipViewer";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex items-center justify-center h-full">
-      <div className="flex flex-col items-center justify-between">
+      <div className="flex flex-col items-center justify-between max-w-full px-4 sm:px-8 md:px-12">
         <div className="flex flex-col items-center">
           <Image
             height={100}
