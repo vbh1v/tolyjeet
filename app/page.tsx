@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import Intro from "@/components/Intro";
+import WebsiteLinks from "@/components/Links";
 import { Navbar } from "@/components/Navbar";
 import TokenAddress from "@/components/TokenAddress";
 import TooltipViewer from "@/components/TooltipViewer";
@@ -23,13 +24,14 @@ export default function Home() {
         </div>
         <Intro />
         <HeroSection />
-        <TooltipViewer />
-        <div className="p-4">
+        {/* <TooltipViewer /> */}
+        <WebsiteLinks />
+        {/* <div className="p-4">
           <button className="px-8 py-2 border border-black bg-transparent text-black  dark:border-white relative group transition duration-200">
             <div className="absolute -bottom-2 -right-2 bg-yellow-300 h-full w-full -z-10 group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
             <span className="relative">JEET</span>
           </button>
-        </div>
+        </div> */}
       </div>
     </main>
   );
