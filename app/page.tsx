@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import Intro from "@/components/Intro";
 import WebsiteLinks from "@/components/Links";
-import MarqueeComponent from "@/components/MarqueeComponent";
+import MarqueeC from "@/components/MarqueeComponent";
 import Starfield from "@/components/StarField";
 import TokenAddress from "@/components/TokenAddress";
 import Image from "next/image";
@@ -34,7 +34,7 @@ export default function Home() {
           <HeroSection />
         </div>
       </main>
-      <MarqueeComponent />
+      <MarqueeC />
     </div>
   );
 }
