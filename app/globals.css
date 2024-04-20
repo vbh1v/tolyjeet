@@ -37,7 +37,7 @@ body {
    height: 100%;
    display: flex;
    justify-content: center;
-    margin-top: clamp(-20px, -12vw, -120px);
+    margin-top: clamp(12px, -12vw, -120px);
 }
 
 .link {
