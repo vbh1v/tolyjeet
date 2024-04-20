@@ -1,10 +1,9 @@
 import HeroSection from "@/components/HeroSection";
 import Intro from "@/components/Intro";
 import WebsiteLinks from "@/components/Links";
-import { Navbar } from "@/components/Navbar";
+import MarqueeComponent from "@/components/MarqueeComponent";
 import Starfield from "@/components/StarField";
 import TokenAddress from "@/components/TokenAddress";
-import TooltipViewer from "@/components/TooltipViewer";
 import Image from "next/image";
 
 export default function Home() {
@@ -32,6 +31,7 @@ export default function Home() {
         <WebsiteLinks />
         <Intro />
         <HeroSection />
+        <MarqueeComponent />
         {/* <TooltipViewer /> */}
         {/* <div className="p-4">
           <button className="px-8 py-2 border border-black bg-transparent text-black  dark:border-white relative group transition duration-200">
