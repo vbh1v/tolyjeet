@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const WebsiteLinks = () => {
-  const twitter = "https://twitter.com/mewsworld";
+  const twitter = "https://twitter.com/tolyjeet";
   const telegram = "https://t.me/mewsworld";
   const dexScreener =
     "https://dexscreener.com/solana/872kbnidUoPHRRY9z714rFf5Jxfw7K8VKDSEHcwCafL9";
