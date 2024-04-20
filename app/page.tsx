@@ -25,14 +25,14 @@ export default function Home() {
             alt="Tolyjeet photo"
             className="object-cover object-top rounded-full h-40 w-40 border-2 border-white mx-auto"
           ></Image>
-          <p className="text-2xl font-medium mt-1">$TOLYJEET</p>
+          <p className="text-2xl font-medium mt-1">TOLYJEET $TOLY</p>
           <TokenAddress/>
           <div className="mx-auto"></div>
         </div>
+        <WebsiteLinks />
         <Intro />
         <HeroSection />
         {/* <TooltipViewer /> */}
-        <WebsiteLinks />
         {/* <div className="p-4">
           <button className="px-8 py-2 border border-black bg-transparent text-black  dark:border-white relative group transition duration-200">
             <div className="absolute -bottom-2 -right-2 bg-yellow-300 h-full w-full -z-10 group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
