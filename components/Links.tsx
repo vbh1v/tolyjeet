@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 const WebsiteLinks = () => {
   const twitter = "https://twitter.com/tolyjeet";
-  const telegram = "https://t.me/mewsworld";
+  const telegram = "https://t.me/tolyjeet";
   const dexScreener =
     "https://dexscreener.com/solana/872kbnidUoPHRRY9z714rFf5Jxfw7K8VKDSEHcwCafL9";
   const solscan =
